@@ -24,7 +24,7 @@
 
 - CSM
 - Memory Fast Boot
-- Serial(COM) Port
+- Serial(COM) Port（请务必关闭，不关闭会影响睡眠）
 
 ### 开启
 
@@ -55,6 +55,8 @@
 - 声卡和网卡我在 **DeviceProperties** 下进行了注入，如果无法正常使用请自行修改。
 - ACPI 下的 SSDT-EC.aml 我是针对这款主板进行定制的，其他主板请自行解决。
 - 其他如 CPU变频，电源睡眠唤醒，显卡加速等均正常使用。
+- 此前由于我将 catalina 安装在单独的 SATA 固态上，单盘引导单系统，故对应修改了 scanPolicy 值，导致使用配置的人无法扫描到安装选项，**现已修改至 0，扫描全部类型磁盘.**
+- 远景帖子[链接](http://bbs.pcbeta.com/viewthread-1866498-1-1.html)
 
 ## 鸣谢
 
