@@ -44,13 +44,17 @@
 
 ### 三码
 
-**配置中我已经移除了三码，请自行添加**。
+~~**配置中我已经移除了三码，请自行添加**。~~
+
+鉴于部分网友不看此说明导致出现如下安装问题：
 
 **请注意：安装时提示 此版本不支持该平台 系未注入机型及三码导致**
 
+我添加了一个预设的机型 iMacPro1,1 与三码，如需使用 AppleID 请自行更换三码，否则请自行承担后果。
+
 ### 网卡
 
-我常规使用有线网卡，AX200的蓝牙使用没有问题，WIFI驱动请关注[远景大神qcwap2012](http://bbs.pcbeta.com/viewthread-1848662-1-2.html)制作的驱动，这是他的[仓库地址](https://github.com/OpenIntelWireless/itlwm)。有需要的**请自行添加。**
+我常规使用有线网卡，AX200 的蓝牙使用没有问题，WIFI驱动和蓝牙驱动请关注[远景大神qcwap2012](http://bbs.pcbeta.com/viewthread-1848662-1-2.html)制作的驱动，这是他的[仓库地址](https://github.com/OpenIntelWireless/itlwm)。有需要的**请自行添加。**
 
 ### 其他
 
